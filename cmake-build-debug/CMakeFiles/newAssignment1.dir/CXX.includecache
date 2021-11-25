@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Carmen/newAssignment1/Cell.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/BinaryInsersionSort.cpp
+BinaryInsersionSort.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/BinaryInsersionSort.hpp
 
-C:/Users/Carmen/newAssignment1/Equations.cpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/BinaryInsersionSort.hpp
+
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.cpp
+Cell.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp
+
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp
+
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Equations.cpp
 Equations.hpp
-C:/Users/Carmen/newAssignment1/Equations.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Equations.hpp
 stdlib.h
 -
 time.h
@@ -18,19 +28,19 @@ time.h
 iostream
 -
 
-C:/Users/Carmen/newAssignment1/Equations.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Equations.hpp
 Stack.hpp
-C:/Users/Carmen/newAssignment1/Stack.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Stack.hpp
 Queue.hpp
-C:/Users/Carmen/newAssignment1/Queue.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Queue.hpp
 List.hpp
-C:/Users/Carmen/newAssignment1/List.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.hpp
 
-C:/Users/Carmen/newAssignment1/FileStoring.cpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/FileStoring.cpp
 FileStoring.hpp
-C:/Users/Carmen/newAssignment1/FileStoring.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/FileStoring.hpp
 List.hpp
-C:/Users/Carmen/newAssignment1/List.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.hpp
 iostream
 -
 fstream
@@ -40,59 +50,63 @@ sstream
 string
 -
 
-C:/Users/Carmen/newAssignment1/FileStoring.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/FileStoring.hpp
 
-C:/Users/Carmen/newAssignment1/List.cpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.cpp
 iostream
 -
 List.hpp
-C:/Users/Carmen/newAssignment1/List.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.hpp
 
-C:/Users/Carmen/newAssignment1/List.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.hpp
 Cell.hpp
-C:/Users/Carmen/newAssignment1/Cell.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp
 
-C:/Users/Carmen/newAssignment1/Queue.cpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Queue.cpp
 cstdio
 -
 cstdlib
 -
 Queue.hpp
-C:/Users/Carmen/newAssignment1/Queue.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Queue.hpp
 
-C:/Users/Carmen/newAssignment1/Queue.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Queue.hpp
 Cell.hpp
-C:/Users/Carmen/newAssignment1/Cell.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp
 
-C:/Users/Carmen/newAssignment1/Quicksort.cpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Quicksort.cpp
 Quicksort.hpp
-C:/Users/Carmen/newAssignment1/Quicksort.hpp
-stdio.h
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Quicksort.hpp
+Cell.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp
+iostream
+-
+cstdio
 -
 
-C:/Users/Carmen/newAssignment1/Quicksort.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Quicksort.hpp
 
-C:/Users/Carmen/newAssignment1/Stack.cpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Stack.cpp
 cstdio
 -
 iostream
 -
 Stack.hpp
-C:/Users/Carmen/newAssignment1/Stack.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Stack.hpp
 
-C:/Users/Carmen/newAssignment1/Stack.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Stack.hpp
 Cell.hpp
-C:/Users/Carmen/newAssignment1/Cell.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp
 
-C:/Users/Carmen/newAssignment1/main.cpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/main.cpp
 iostream
 -
 Stack.hpp
-C:/Users/Carmen/newAssignment1/Stack.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Stack.hpp
 List.hpp
-C:/Users/Carmen/newAssignment1/List.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.hpp
 Queue.hpp
-C:/Users/Carmen/newAssignment1/Queue.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Queue.hpp
 Equations.hpp
-C:/Users/Carmen/newAssignment1/Equations.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Equations.hpp
 

@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Carmen/newAssignment1/cmake-build-debug"/>
+				<Option working_dir="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="newAssignment1">
-				<Option output="C:/Users/Carmen/newAssignment1/cmake-build-debug/newAssignment1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carmen/newAssignment1/cmake-build-debug"/>
+				<Option output="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/newAssignment1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 newAssignment1"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 newAssignment1"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="newAssignment1/fast">
-				<Option output="C:/Users/Carmen/newAssignment1/cmake-build-debug/newAssignment1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carmen/newAssignment1/cmake-build-debug"/>
+				<Option output="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/newAssignment1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,100 +53,100 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 newAssignment1/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 newAssignment1/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Carmen/newAssignment1/cmake-build-debug"/>
+				<Option working_dir="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Carmen/newAssignment1/cmake-build-debug"/>
+				<Option working_dir="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Carmen/newAssignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Carmen/newAssignment1/.idea/.gitignore">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/.idea/.gitignore">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/.idea/modules.xml">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/.idea/modules.xml">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/.idea/newAssignment1.iml">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/.idea/newAssignment1.iml">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/.idea/vcs.xml">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/.idea/vcs.xml">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/.idea/workspace.xml">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/.idea/workspace.xml">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/BinaryInsersionSort.cpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/BinaryInsersionSort.cpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/BinaryInsersionSort.hpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/BinaryInsersionSort.hpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/Cell.cpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.cpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/Cell.hpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/Equations.cpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Equations.cpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/Equations.hpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Equations.hpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/FileStoring.cpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/FileStoring.cpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/FileStoring.hpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/FileStoring.hpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/List.cpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.cpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/List.hpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.hpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/Queue.cpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Queue.cpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/Queue.hpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Queue.hpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/Quicksort.cpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Quicksort.cpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/Quicksort.hpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Quicksort.hpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/Stack.cpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Stack.cpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/Stack.hpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Stack.hpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/main.cpp">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/main.cpp">
 			<Option target="newAssignment1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carmen/newAssignment1/CMakeLists.txt">
+		<Unit filename="C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

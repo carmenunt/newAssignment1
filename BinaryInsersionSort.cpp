@@ -1,22 +1,34 @@
 #include "BinaryInsersionSort.hpp"
-void InsertionSort(int* A, int size)
-{
+#include "List.hpp"
 
-    int i, key, j;
-    for (i = 1; i < N; i++)
-    {
-        key = A[i];
-        j = i - 1;
 
-        /* Move elements of arr[0..i-1], that are
-        greater than key, to one position ahead
-        of their current position */
-        while (j >= 0 && A[j] > key)
-        {
-            A[j + 1] = A[j];
-            j = j - 1;
+List insertion_sort(List list, int length){
+    Cell* temp;
+    temp= list.getHead();
+
+
+    while (temp->next != nullptr){
+        int valueToinsert = temp->value;
+        Cell* hole_position = temp;
+
+        while (temp->next != nullptr and temp->value > temp->next->value){
+            int temp_ = temp->value;
+            temp->value = temp->next->value;
+            temp->next->value = temp_
+
+
         }
-        A[j + 1] = key;
-    }
+
+
+
+
+    };
+
+    return
 
 }
+
+
+
+
+
