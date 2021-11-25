@@ -25,9 +25,11 @@ Cell* List::getHead()
 int List::getLength()
 {
     int counter = 0;
-    while (tail->next != nullptr)
+    Cell* temp = tail;
+    while (temp->next != nullptr)
     {
         counter++;
+        temp = temp->next;
     }
     return counter;
 }
