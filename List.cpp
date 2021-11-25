@@ -22,6 +22,16 @@ Cell* List::getHead()
     return head;
 }
 
+int List::getLength()
+{
+    int counter = 0;
+    while (tail->next != nullptr)
+    {
+        counter++;
+    }
+    return counter;
+}
+
 Cell* List::getTail()
 {
     //while (cur != NULL && cur->next != NULL)

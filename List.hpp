@@ -10,6 +10,7 @@ public:
     int delete1(Cell *position);
     void insert(int value);
     void insert(int value, Cell *position);
+    int getLength();
     Cell* getHead();
     Cell* getTail();
     void display();
