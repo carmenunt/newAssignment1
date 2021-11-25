@@ -9,12 +9,12 @@
 C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/BinaryInsersionSort.cpp
 BinaryInsersionSort.hpp
 C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/BinaryInsersionSort.hpp
+List.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.hpp
 
 C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/BinaryInsersionSort.hpp
-
-C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.cpp
-Cell.hpp
-C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp
+List.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.hpp
 
 C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp
 
@@ -62,37 +62,19 @@ C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.hpp
 Cell.hpp
 C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp
 
-C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Queue.cpp
-cstdio
--
-cstdlib
--
-Queue.hpp
-C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Queue.hpp
-
 C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Queue.hpp
 Cell.hpp
 C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp
 
 C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Quicksort.cpp
+iostream
+-
 Quicksort.hpp
+C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Quicksort.hpp
+
 C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Quicksort.hpp
 Cell.hpp
 C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.hpp
-iostream
--
-cstdio
--
-
-C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Quicksort.hpp
-
-C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Stack.cpp
-cstdio
--
-iostream
--
-Stack.hpp
-C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Stack.hpp
 
 C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Stack.hpp
 Cell.hpp

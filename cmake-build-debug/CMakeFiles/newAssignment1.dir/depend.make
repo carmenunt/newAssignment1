@@ -3,7 +3,9 @@
 
 CMakeFiles/newAssignment1.dir/BinaryInsersionSort.cpp.obj: \
  ../BinaryInsersionSort.cpp \
- ../BinaryInsersionSort.hpp
+ ../BinaryInsersionSort.hpp \
+ ../Cell.hpp \
+ ../List.hpp
 CMakeFiles/newAssignment1.dir/Cell.cpp.obj: \
  ../Cell.cpp \
  ../Cell.hpp
