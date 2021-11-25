@@ -3,8 +3,10 @@
 
 
 List insertion_sort(List list, int length){
+    List newList = list.clone();
     Cell* temp;
-    temp= list.getHead();
+    temp= newList.getHead();
+
 
 
     while (temp->next != nullptr){
@@ -14,7 +16,7 @@ List insertion_sort(List list, int length){
         while (temp->next != nullptr and temp->value > temp->next->value){
             int temp_ = temp->value;
             temp->value = temp->next->value;
-            temp->next->value = temp_
+            temp->next->value = temp_;
 
 
         }
@@ -24,7 +26,7 @@ List insertion_sort(List list, int length){
 
     };
 
-    return
+    return newList;
 
 }
 
