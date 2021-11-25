@@ -26,8 +26,6 @@ int main() {
         Equations newObj;
         nr = newObj.equation(B);
         cout << "\nFB = " << nr << endl;
-        A = 5;
-        nr = 10;
         if(nr > 0)
         {
             counter += nr;

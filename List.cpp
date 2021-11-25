@@ -3,8 +3,8 @@
 
 List::List()
 {
-    front = nullptr;
-    back = nullptr;
+    head = nullptr;
+    tail = nullptr;
 }
 
 int List::delete1(Cell *toDelete)
@@ -17,9 +17,17 @@ int List::delete1(Cell *toDelete)
     return value;
 }
 
-Cell* List::getFront()
+Cell* List::getHead()
 {
-    return front;
+    return head;
+}
+
+Cell* List::getTail()
+{
+    //while (cur != NULL && cur->next != NULL)
+    //        cur = cur->next;
+    //    return cur;
+    return tail;
 }
 
 void List::insert(int value)
@@ -27,15 +35,15 @@ void List::insert(int value)
     Cell *newCell = new Cell;
     newCell->value = value;
     newCell->next = nullptr;
-    if(front == nullptr)
+    if(head == nullptr)
     {
-        front = newCell;
-        back = newCell;
+        head = newCell;
+        tail = newCell;
     }
     else
     {
-        back->next = newCell;
-        back = back->next;
+        tail->next = newCell;
+        tail = tail->next;
     }
 }
 
@@ -49,18 +57,18 @@ void List::insert(int value, Cell *givenCell)
 
 void List::makenull()
 {
-    while (front != back)
+    while (head != tail)
     {
-        delete1(front);
+        delete1(head);
     }
-    front = nullptr;
-    back = nullptr;
+    head = nullptr;
+    tail = nullptr;
 
 }
 
 bool List::empty()
 {
-    if(front == nullptr && back == nullptr)
+    if(head == nullptr && tail == nullptr)
     {
         return true;
     }
@@ -70,7 +78,7 @@ bool List::empty()
 void List::display()
 {
     Cell *tmp;
-    tmp = front;
+    tmp = head;
     while (tmp != nullptr)
     {
         std::cout << tmp->value << std::endl;

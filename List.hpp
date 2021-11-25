@@ -3,14 +3,15 @@
 #include "Cell.hpp"
 
 class List {
-    Cell *front;
-    Cell *back;
+    Cell *head;
+    Cell *tail;
 public:
     List();
     int delete1(Cell *position);
     void insert(int value);
     void insert(int value, Cell *position);
-    Cell* getFront();
+    Cell* getHead();
+    Cell* getTail();
     void display();
 
 
