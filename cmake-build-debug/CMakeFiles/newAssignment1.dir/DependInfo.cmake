@@ -8,15 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Carmen/newAssignment1/BinaryInsersionSort.cpp" "C:/Users/Carmen/newAssignment1/cmake-build-debug/CMakeFiles/newAssignment1.dir/BinaryInsersionSort.cpp.obj"
-  "C:/Users/Carmen/newAssignment1/Cell.cpp" "C:/Users/Carmen/newAssignment1/cmake-build-debug/CMakeFiles/newAssignment1.dir/Cell.cpp.obj"
-  "C:/Users/Carmen/newAssignment1/Equations.cpp" "C:/Users/Carmen/newAssignment1/cmake-build-debug/CMakeFiles/newAssignment1.dir/Equations.cpp.obj"
-  "C:/Users/Carmen/newAssignment1/FileStoring.cpp" "C:/Users/Carmen/newAssignment1/cmake-build-debug/CMakeFiles/newAssignment1.dir/FileStoring.cpp.obj"
-  "C:/Users/Carmen/newAssignment1/List.cpp" "C:/Users/Carmen/newAssignment1/cmake-build-debug/CMakeFiles/newAssignment1.dir/List.cpp.obj"
-  "C:/Users/Carmen/newAssignment1/Queue.cpp" "C:/Users/Carmen/newAssignment1/cmake-build-debug/CMakeFiles/newAssignment1.dir/Queue.cpp.obj"
-  "C:/Users/Carmen/newAssignment1/Quicksort.cpp" "C:/Users/Carmen/newAssignment1/cmake-build-debug/CMakeFiles/newAssignment1.dir/Quicksort.cpp.obj"
-  "C:/Users/Carmen/newAssignment1/Stack.cpp" "C:/Users/Carmen/newAssignment1/cmake-build-debug/CMakeFiles/newAssignment1.dir/Stack.cpp.obj"
-  "C:/Users/Carmen/newAssignment1/main.cpp" "C:/Users/Carmen/newAssignment1/cmake-build-debug/CMakeFiles/newAssignment1.dir/main.cpp.obj"
+  "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/BinaryInsersionSort.cpp" "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/CMakeFiles/newAssignment1.dir/BinaryInsersionSort.cpp.obj"
+  "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Cell.cpp" "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/CMakeFiles/newAssignment1.dir/Cell.cpp.obj"
+  "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Equations.cpp" "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/CMakeFiles/newAssignment1.dir/Equations.cpp.obj"
+  "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/FileStoring.cpp" "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/CMakeFiles/newAssignment1.dir/FileStoring.cpp.obj"
+  "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/List.cpp" "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/CMakeFiles/newAssignment1.dir/List.cpp.obj"
+  "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Queue.cpp" "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/CMakeFiles/newAssignment1.dir/Queue.cpp.obj"
+  "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Quicksort.cpp" "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/CMakeFiles/newAssignment1.dir/Quicksort.cpp.obj"
+  "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/Stack.cpp" "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/CMakeFiles/newAssignment1.dir/Stack.cpp.obj"
+  "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/main.cpp" "C:/Users/bonba/Desktop/CLION PROJECTS/Assignment/cmake-build-debug/CMakeFiles/newAssignment1.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

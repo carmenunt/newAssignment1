@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Carmen\newAssignment1
+CMAKE_SOURCE_DIR = "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Carmen\newAssignment1\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/newAssignment1.dir/depend.make
@@ -67,120 +67,120 @@ include CMakeFiles/newAssignment1.dir/flags.make
 
 CMakeFiles/newAssignment1.dir/main.cpp.obj: CMakeFiles/newAssignment1.dir/flags.make
 CMakeFiles/newAssignment1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Carmen\newAssignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/newAssignment1.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\main.cpp.obj -c C:\Users\Carmen\newAssignment1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/newAssignment1.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\main.cpp.obj -c "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\main.cpp"
 
 CMakeFiles/newAssignment1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newAssignment1.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Carmen\newAssignment1\main.cpp > CMakeFiles\newAssignment1.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\main.cpp" > CMakeFiles\newAssignment1.dir\main.cpp.i
 
 CMakeFiles/newAssignment1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newAssignment1.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Carmen\newAssignment1\main.cpp -o CMakeFiles\newAssignment1.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\main.cpp" -o CMakeFiles\newAssignment1.dir\main.cpp.s
 
 CMakeFiles/newAssignment1.dir/Stack.cpp.obj: CMakeFiles/newAssignment1.dir/flags.make
 CMakeFiles/newAssignment1.dir/Stack.cpp.obj: ../Stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Carmen\newAssignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/newAssignment1.dir/Stack.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\Stack.cpp.obj -c C:\Users\Carmen\newAssignment1\Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/newAssignment1.dir/Stack.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\Stack.cpp.obj -c "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Stack.cpp"
 
 CMakeFiles/newAssignment1.dir/Stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newAssignment1.dir/Stack.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Carmen\newAssignment1\Stack.cpp > CMakeFiles\newAssignment1.dir\Stack.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Stack.cpp" > CMakeFiles\newAssignment1.dir\Stack.cpp.i
 
 CMakeFiles/newAssignment1.dir/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newAssignment1.dir/Stack.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Carmen\newAssignment1\Stack.cpp -o CMakeFiles\newAssignment1.dir\Stack.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Stack.cpp" -o CMakeFiles\newAssignment1.dir\Stack.cpp.s
 
 CMakeFiles/newAssignment1.dir/Cell.cpp.obj: CMakeFiles/newAssignment1.dir/flags.make
 CMakeFiles/newAssignment1.dir/Cell.cpp.obj: ../Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Carmen\newAssignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/newAssignment1.dir/Cell.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\Cell.cpp.obj -c C:\Users\Carmen\newAssignment1\Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/newAssignment1.dir/Cell.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\Cell.cpp.obj -c "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Cell.cpp"
 
 CMakeFiles/newAssignment1.dir/Cell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newAssignment1.dir/Cell.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Carmen\newAssignment1\Cell.cpp > CMakeFiles\newAssignment1.dir\Cell.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Cell.cpp" > CMakeFiles\newAssignment1.dir\Cell.cpp.i
 
 CMakeFiles/newAssignment1.dir/Cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newAssignment1.dir/Cell.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Carmen\newAssignment1\Cell.cpp -o CMakeFiles\newAssignment1.dir\Cell.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Cell.cpp" -o CMakeFiles\newAssignment1.dir\Cell.cpp.s
 
 CMakeFiles/newAssignment1.dir/Queue.cpp.obj: CMakeFiles/newAssignment1.dir/flags.make
 CMakeFiles/newAssignment1.dir/Queue.cpp.obj: ../Queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Carmen\newAssignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/newAssignment1.dir/Queue.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\Queue.cpp.obj -c C:\Users\Carmen\newAssignment1\Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/newAssignment1.dir/Queue.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\Queue.cpp.obj -c "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Queue.cpp"
 
 CMakeFiles/newAssignment1.dir/Queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newAssignment1.dir/Queue.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Carmen\newAssignment1\Queue.cpp > CMakeFiles\newAssignment1.dir\Queue.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Queue.cpp" > CMakeFiles\newAssignment1.dir\Queue.cpp.i
 
 CMakeFiles/newAssignment1.dir/Queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newAssignment1.dir/Queue.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Carmen\newAssignment1\Queue.cpp -o CMakeFiles\newAssignment1.dir\Queue.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Queue.cpp" -o CMakeFiles\newAssignment1.dir\Queue.cpp.s
 
 CMakeFiles/newAssignment1.dir/List.cpp.obj: CMakeFiles/newAssignment1.dir/flags.make
 CMakeFiles/newAssignment1.dir/List.cpp.obj: ../List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Carmen\newAssignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/newAssignment1.dir/List.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\List.cpp.obj -c C:\Users\Carmen\newAssignment1\List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/newAssignment1.dir/List.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\List.cpp.obj -c "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\List.cpp"
 
 CMakeFiles/newAssignment1.dir/List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newAssignment1.dir/List.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Carmen\newAssignment1\List.cpp > CMakeFiles\newAssignment1.dir\List.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\List.cpp" > CMakeFiles\newAssignment1.dir\List.cpp.i
 
 CMakeFiles/newAssignment1.dir/List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newAssignment1.dir/List.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Carmen\newAssignment1\List.cpp -o CMakeFiles\newAssignment1.dir\List.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\List.cpp" -o CMakeFiles\newAssignment1.dir\List.cpp.s
 
 CMakeFiles/newAssignment1.dir/Equations.cpp.obj: CMakeFiles/newAssignment1.dir/flags.make
 CMakeFiles/newAssignment1.dir/Equations.cpp.obj: ../Equations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Carmen\newAssignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/newAssignment1.dir/Equations.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\Equations.cpp.obj -c C:\Users\Carmen\newAssignment1\Equations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/newAssignment1.dir/Equations.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\Equations.cpp.obj -c "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Equations.cpp"
 
 CMakeFiles/newAssignment1.dir/Equations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newAssignment1.dir/Equations.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Carmen\newAssignment1\Equations.cpp > CMakeFiles\newAssignment1.dir\Equations.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Equations.cpp" > CMakeFiles\newAssignment1.dir\Equations.cpp.i
 
 CMakeFiles/newAssignment1.dir/Equations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newAssignment1.dir/Equations.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Carmen\newAssignment1\Equations.cpp -o CMakeFiles\newAssignment1.dir\Equations.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Equations.cpp" -o CMakeFiles\newAssignment1.dir\Equations.cpp.s
 
 CMakeFiles/newAssignment1.dir/FileStoring.cpp.obj: CMakeFiles/newAssignment1.dir/flags.make
 CMakeFiles/newAssignment1.dir/FileStoring.cpp.obj: ../FileStoring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Carmen\newAssignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/newAssignment1.dir/FileStoring.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\FileStoring.cpp.obj -c C:\Users\Carmen\newAssignment1\FileStoring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/newAssignment1.dir/FileStoring.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\FileStoring.cpp.obj -c "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\FileStoring.cpp"
 
 CMakeFiles/newAssignment1.dir/FileStoring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newAssignment1.dir/FileStoring.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Carmen\newAssignment1\FileStoring.cpp > CMakeFiles\newAssignment1.dir\FileStoring.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\FileStoring.cpp" > CMakeFiles\newAssignment1.dir\FileStoring.cpp.i
 
 CMakeFiles/newAssignment1.dir/FileStoring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newAssignment1.dir/FileStoring.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Carmen\newAssignment1\FileStoring.cpp -o CMakeFiles\newAssignment1.dir\FileStoring.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\FileStoring.cpp" -o CMakeFiles\newAssignment1.dir\FileStoring.cpp.s
 
 CMakeFiles/newAssignment1.dir/Quicksort.cpp.obj: CMakeFiles/newAssignment1.dir/flags.make
 CMakeFiles/newAssignment1.dir/Quicksort.cpp.obj: ../Quicksort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Carmen\newAssignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/newAssignment1.dir/Quicksort.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\Quicksort.cpp.obj -c C:\Users\Carmen\newAssignment1\Quicksort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/newAssignment1.dir/Quicksort.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\Quicksort.cpp.obj -c "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Quicksort.cpp"
 
 CMakeFiles/newAssignment1.dir/Quicksort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newAssignment1.dir/Quicksort.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Carmen\newAssignment1\Quicksort.cpp > CMakeFiles\newAssignment1.dir\Quicksort.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Quicksort.cpp" > CMakeFiles\newAssignment1.dir\Quicksort.cpp.i
 
 CMakeFiles/newAssignment1.dir/Quicksort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newAssignment1.dir/Quicksort.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Carmen\newAssignment1\Quicksort.cpp -o CMakeFiles\newAssignment1.dir\Quicksort.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\Quicksort.cpp" -o CMakeFiles\newAssignment1.dir\Quicksort.cpp.s
 
 CMakeFiles/newAssignment1.dir/BinaryInsersionSort.cpp.obj: CMakeFiles/newAssignment1.dir/flags.make
 CMakeFiles/newAssignment1.dir/BinaryInsersionSort.cpp.obj: ../BinaryInsersionSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Carmen\newAssignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/newAssignment1.dir/BinaryInsersionSort.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\BinaryInsersionSort.cpp.obj -c C:\Users\Carmen\newAssignment1\BinaryInsersionSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/newAssignment1.dir/BinaryInsersionSort.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\newAssignment1.dir\BinaryInsersionSort.cpp.obj -c "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\BinaryInsersionSort.cpp"
 
 CMakeFiles/newAssignment1.dir/BinaryInsersionSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newAssignment1.dir/BinaryInsersionSort.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Carmen\newAssignment1\BinaryInsersionSort.cpp > CMakeFiles\newAssignment1.dir\BinaryInsersionSort.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\BinaryInsersionSort.cpp" > CMakeFiles\newAssignment1.dir\BinaryInsersionSort.cpp.i
 
 CMakeFiles/newAssignment1.dir/BinaryInsersionSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newAssignment1.dir/BinaryInsersionSort.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Carmen\newAssignment1\BinaryInsersionSort.cpp -o CMakeFiles\newAssignment1.dir\BinaryInsersionSort.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\BinaryInsersionSort.cpp" -o CMakeFiles\newAssignment1.dir\BinaryInsersionSort.cpp.s
 
 # Object files for target newAssignment1
 newAssignment1_OBJECTS = \
@@ -210,7 +210,7 @@ newAssignment1.exe: CMakeFiles/newAssignment1.dir/build.make
 newAssignment1.exe: CMakeFiles/newAssignment1.dir/linklibs.rsp
 newAssignment1.exe: CMakeFiles/newAssignment1.dir/objects1.rsp
 newAssignment1.exe: CMakeFiles/newAssignment1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Carmen\newAssignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable newAssignment1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable newAssignment1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\newAssignment1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -222,6 +222,6 @@ CMakeFiles/newAssignment1.dir/clean:
 .PHONY : CMakeFiles/newAssignment1.dir/clean
 
 CMakeFiles/newAssignment1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Carmen\newAssignment1 C:\Users\Carmen\newAssignment1 C:\Users\Carmen\newAssignment1\cmake-build-debug C:\Users\Carmen\newAssignment1\cmake-build-debug C:\Users\Carmen\newAssignment1\cmake-build-debug\CMakeFiles\newAssignment1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment" "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment" "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug" "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug" "C:\Users\bonba\Desktop\CLION PROJECTS\Assignment\cmake-build-debug\CMakeFiles\newAssignment1.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/newAssignment1.dir/depend
 
