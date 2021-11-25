@@ -14,7 +14,7 @@ public:
     Cell* getHead();
     Cell* getTail();
     void display();
-
+    List clone();
 
     void makenull();
     bool empty();

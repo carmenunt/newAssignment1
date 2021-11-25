@@ -98,6 +98,16 @@ void List::display()
     }
 }
 
+List List::clone()
+{
+    Cell* temp = head;
+    List clonedList;
+    while (temp != nullptr)
+    {
+        clonedList.insert(temp->value);
+        temp = temp->next;
+    }
+}
 List::~List()
 {
 

@@ -1,120 +1,100 @@
-#include "Quicksort.hpp"
-#include "Cell.hpp"
 #include <iostream>
-#include <cstdio>
+#include "Quicksort.hpp"
 using namespace std;
 
 
-void insertAtBeginning(Cell**head,int dataToBeInserted)
+Cell* Quicksort::getEnd(Cell* current)
 {
-    Cell*curr=new Cell;
-    //make a new LLNode with this data and next pointing to NULL
-    curr->value=dataToBeInserted;
-    curr->next= nullptr;
-    if(*head== nullptr) //if list is empty then set the current formed LLNode as head of list
-        *head=curr;
-
-    else //make the next of the current LLNode point to the present head and make the current LLNode as the new head
+    while (current != nullptr && current->next != nullptr)
     {
-        curr->next=*head;
-        *head=curr;
+        current = current->next;
     }
-
-    //O(1) constant time
+    return current;
 }
 
-// A utility function to print linked list //
-void display(Cell**head)
+void Quicksort::displayQuicksort(Cell **head)
 {
     Cell*temp=*head;
     while(temp!= nullptr) //till the list ends (NULL marks ending of list)
     {
         if(temp->next!= nullptr)
+        {
             cout<<temp->value<<" ->";
-        else
+        }else
+        {
             cout<<temp->value;
-
+        }
         temp=temp->next; //move to next node
     }
-    //O(number of nodes)
-    cout<<endl;
 }
 
-
-// Partitions the list taking the last element as the pivot
-Cell *partition(Cell *head, Cell *end, Cell **newHead, Cell **newEnd)
+Cell* Quicksort::partition(Cell *head, Cell *end, Cell **newHead, Cell **newEnd)
 {
     Cell *pivot = end;
-    Cell *prev = nullptr, *cur = head, *tail = pivot;
-
+    Cell *prev = nullptr;
+    Cell *current = head;
+    Cell *tail = pivot;
     // During partition, both the head and end of the list might change
     // which is updated in the newHead and newEnd variables
-    while (cur != pivot)
+    while (current != pivot)
     {
-        if (cur->value < pivot->value)
+        if (current->value < pivot->value)
         {
-            // First node that has a value less than the pivot - becomes
-            // the new head
             if ((*newHead) == nullptr)
-                (*newHead) = cur;
-
-            prev = cur;
-            cur = cur->next;
+            {
+                (*newHead) = current;
+            }
+            prev = current;
+            current = current->next;
         }
-        else // If cur LLNode is greater than pivot
+        else
         {
-            // Move cur LLNode to next of tail, and change tail
             if (prev)
-                prev->next = cur->next;
-            Cell *tmp = cur->next;
-            cur->next = nullptr;
-            tail->next = cur;
-            tail = cur;
-            cur = tmp;
+            {
+                prev->next = current->next;
+            }
+            Cell *temporary = current->next;
+            current->next = nullptr;
+            tail->next = current;
+            tail = current;
+            current = temporary;
         }
     }
-
-    // If the pivot data is the smallest element in the current list,
-    // pivot becomes the head
-    if ((*newHead) == nullptr)
-        (*newHead) = pivot;
-
-    // Update newEnd to the current last node
-    (*newEnd) = tail;
-
-    // Return the pivot LLNode
+    if (*newHead == nullptr)
+    {
+        *newHead = pivot;
+    }
+    *newEnd = tail;
     return pivot;
 }
 
-
 //here the sorting happens exclusive of the end node
-Cell *quickSortRecur(Cell *head, Cell *end)
+Cell* Quicksort::quickSortRecur(Cell *head, Cell *end)
 {
     // base condition
     if (!head || head == end)
+    {
         return head;
-
+    }
     Cell *newHead = nullptr, *newEnd = nullptr;
-
     // Partition the list, newHead and newEnd will be updated
     // by the partition function
     Cell *pivot = partition(head, end, &newHead, &newEnd);
-
     // If pivot is the smallest element - no need to recur for
     // the left part.
     if (newHead != pivot)
     {
-        // Set the LLNode before the pivot LLNode as NULL
         Cell *tmp = newHead;
         while (tmp->next != pivot)
+        {
             tmp = tmp->next;
+        }
         tmp->next = nullptr;
-
         // Recur for the list before pivot
         newHead = quickSortRecur(newHead, tmp);
 
         // Change next of last LLNode of the left half to pivot
-        tmp = getTail(newHead);
+        tmp = getEnd(newHead); // Changing the next of
         tmp->next =  pivot;
     }
 
@@ -126,31 +106,30 @@ Cell *quickSortRecur(Cell *head, Cell *end)
 
 // The main function for quick sort. This is a wrapper over recursive
 // function quickSortRecur()
-void quickSort(Cell **headRef)
+void Quicksort::quickSort(Cell **headRef)
 {
-    (*headRef) = quickSortRecur(*headRef, getTail(*headRef));
-    return;
+    (*headRef) = quickSortRecur(*headRef, getEnd(*headRef));
 }
 
-// Driver program to test above functions
-//int main()
-//{
-//    Cell *head = NULL;
-//    LLNode *tail = NULL;
-//    insertAtBeginning(&head, 6);
-//    insertAtBeginning(&head, 16);
-//    insertAtBeginning(&head, 15);
-//    insertAtBeginning(&head, 50);
-//    insertAtBeginning(&head, 1);
-//    insertAtBeginning(&head, 23);
-//
-//    cout << "Linked List before sorting \n";
-//    display(&head);
-//
-//    quickSort(&head);
-//
-//    cout << "Linked List after sorting \n";
-//    display(&head);
-//
-//    return 0;
-//}
+int main()
+{
+    Cell *head = nullptr;
+    Cell *tail = nullptr;
+    List
+    insertAtBeginning(&head, 6);
+    insertAtBeginning(&head, 16);
+    insertAtBeginning(&head, 15);
+    insertAtBeginning(&head, 50);
+    insertAtBeginning(&head, 1);
+    insertAtBeginning(&head, 23);
+
+    cout << "Linked List before sorting \n";
+    display(&head);
+
+    quickSort(&head);
+
+    cout << "Linked List after sorting \n";
+    display(&head);
+
+    return 0;
+}
