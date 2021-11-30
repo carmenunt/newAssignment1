@@ -35,7 +35,7 @@ int List::getLength()
         counter++;
         temp = temp->next;
     }
-    return counter++;
+    return ++counter;
 }
 
 Cell* List::getTail()
@@ -118,10 +118,12 @@ List::~List()
 
 }
 
-int main()
-{
-    List newList;
-    newList.insert(1);
-    newList.insert(2);
-    std::cout << newList.getLength() << std::endl;
-}
+//int main()
+//{
+//    List newList;
+//    newList.insert(1);
+//    newList.insert(2);
+//    newList.insert(2);
+//    newList.insert(2);
+//    std::cout << newList.getLength() << std::endl;
+//}
