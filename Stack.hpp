@@ -13,6 +13,7 @@ public:
     void makenull();
     bool empty();
     void display();
+    Stack clone();
     ~Stack();
 };
 

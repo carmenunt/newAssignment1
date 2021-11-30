@@ -1,5 +1,7 @@
 #include <iostream>
 #include "Quicksort.hpp"
+#include "List.hpp"
+
 using namespace std;
 
 
@@ -111,25 +113,25 @@ void Quicksort::quickSort(Cell **headRef)
     (*headRef) = quickSortRecur(*headRef, getEnd(*headRef));
 }
 
-int main()
-{
-    Cell *head = nullptr;
-    Cell *tail = nullptr;
-    List
-    insertAtBeginning(&head, 6);
-    insertAtBeginning(&head, 16);
-    insertAtBeginning(&head, 15);
-    insertAtBeginning(&head, 50);
-    insertAtBeginning(&head, 1);
-    insertAtBeginning(&head, 23);
-
-    cout << "Linked List before sorting \n";
-    display(&head);
-
-    quickSort(&head);
-
-    cout << "Linked List after sorting \n";
-    display(&head);
-
-    return 0;
-}
+//int main()
+//{
+//    Cell *head = nullptr;
+//    Cell *tail = nullptr;
+//    List newList;
+//    insertAtBeginning(&head, 6);
+//    insertAtBeginning(&head, 16);
+//    insertAtBeginning(&head, 15);
+//    insertAtBeginning(&head, 50);
+//    insertAtBeginning(&head, 1);
+//    insertAtBeginning(&head, 23);
+//
+////    cout << "Linked List before sorting \n";
+////    display(&head);
+////
+////    quickSort(&head);
+////
+////    cout << "Linked List after sorting \n";
+////    display(&head);
+//
+//    return 0;
+//}

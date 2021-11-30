@@ -13,7 +13,7 @@ int Stack::pop()
     int popped;
 
     top1 = top;
-    if (top1 == nullptr)
+    if (top == nullptr)
     {
         std::cout << ("\n Error : Trying to pop from empty stack");
         // Need to do something here
@@ -21,10 +21,10 @@ int Stack::pop()
     }
     else
     {
-        top1 = top1->next;
-        free(top);
-        top = top1;
-        popped = top->value;
+        Cell* temp = top;
+        top = top->next;
+//        free(temp);
+        popped = temp->value;
     }
 
     return popped;
@@ -74,6 +74,17 @@ void Stack::display()
     {
         printf("%d ", top1->value);
         top1 = top1->next;
+    }
+}
+
+Stack Stack::clone()
+{
+    Cell* temp = top;
+    Stack clonedStack;
+    while (temp != nullptr)
+    {
+        clonedStack.push(temp->value);
+        temp = temp->next;
     }
 }
 

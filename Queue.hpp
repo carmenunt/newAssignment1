@@ -13,7 +13,7 @@ public:
 
     void makenull();
     bool empty();
-
+    Queue clone();
     ~Queue();
 };
 

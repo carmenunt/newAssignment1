@@ -62,6 +62,16 @@ bool Queue::empty()
     return false;
 }
 
+Queue Queue::clone()
+{
+    Cell* temp = front;
+    Queue clonedQueue;
+    while (temp != nullptr)
+    {
+        clonedQueue.enqueue(temp->value);
+        temp = temp->next;
+    }
+}
 Queue::~Queue()
 {
 
