@@ -31,13 +31,14 @@ int main() {
         int nr;
         Equations newObj;
         nr = newObj.equation(B);
+        nr = 5;
         cout << "\nFB = " << nr << endl;
         if(nr > 0)
         {
             counter += nr;
             newObj.numberGenerator(nr, A, newStack, newList, newQueue);
         }
-
+        cout << "Length of the list: " << newList.getLength() << endl;
         // It will print out the generated numbers in the function numberGeneration()
     }
     int choice = 0;
@@ -73,7 +74,7 @@ int main() {
 
 
     }
-
+    cout << "You have exited" << endl;
     return 0;
 
 

@@ -25,13 +25,17 @@ Cell* List::getHead()
 int List::getLength()
 {
     int counter = 0;
-    Cell* temp = tail;
-    while (temp->next != nullptr)
+    if (head == nullptr)
+    {
+        return 0;
+    }
+    Cell* temp = head;
+    while (temp != tail)
     {
         counter++;
         temp = temp->next;
     }
-    return counter;
+    return counter++;
 }
 
 Cell* List::getTail()
@@ -107,8 +111,17 @@ List List::clone()
         clonedList.insert(temp->value);
         temp = temp->next;
     }
+    return clonedList;
 }
 List::~List()
 {
 
+}
+
+int main()
+{
+    List newList;
+    newList.insert(1);
+    newList.insert(2);
+    std::cout << newList.getLength() << std::endl;
 }
