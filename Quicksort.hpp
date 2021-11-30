@@ -7,10 +7,10 @@
 class Quicksort {
 public:
     Cell* getEnd(Cell* current);
-    Cell *partition(Cell *head, Cell *end, Cell **newHead, Cell **newEnd);
+    Cell *partition(Cell *head, Cell *end, Cell *newHead, Cell *newEnd);
     Cell *quickSortRecur(Cell *head, Cell *end);
-    void quickSort(Cell **headRef);
-    void displayQuicksort(Cell **head);
+    void quickSort(Cell *headRef);
+    void displayQuicksort(Cell *head);
 };
 
 

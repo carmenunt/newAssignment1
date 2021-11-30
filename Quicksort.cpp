@@ -14,9 +14,9 @@ Cell* Quicksort::getEnd(Cell* current)
     return current;
 }
 
-void Quicksort::displayQuicksort(Cell **head)
+void Quicksort::displayQuicksort(Cell *head)
 {
-    Cell*temp=*head;
+    Cell*temp=head;
     while(temp!= nullptr) //till the list ends (NULL marks ending of list)
     {
         if(temp->next!= nullptr)
@@ -30,7 +30,7 @@ void Quicksort::displayQuicksort(Cell **head)
     }
 }
 
-Cell* Quicksort::partition(Cell *head, Cell *end, Cell **newHead, Cell **newEnd)
+Cell* Quicksort::partition(Cell *head, Cell *end, Cell *newHead, Cell *newEnd)
 {
     Cell *pivot = end;
     Cell *prev = nullptr;
@@ -42,9 +42,9 @@ Cell* Quicksort::partition(Cell *head, Cell *end, Cell **newHead, Cell **newEnd)
     {
         if (current->value < pivot->value)
         {
-            if ((*newHead) == nullptr)
+            if ((newHead) == nullptr)
             {
-                (*newHead) = current;
+                (newHead) = current;
             }
             prev = current;
             current = current->next;
@@ -62,11 +62,11 @@ Cell* Quicksort::partition(Cell *head, Cell *end, Cell **newHead, Cell **newEnd)
             current = temporary;
         }
     }
-    if (*newHead == nullptr)
+    if (newHead == nullptr)
     {
-        *newHead = pivot;
+        newHead = pivot;
     }
-    *newEnd = tail;
+    newEnd = tail;
     return pivot;
 }
 
@@ -81,7 +81,7 @@ Cell* Quicksort::quickSortRecur(Cell *head, Cell *end)
     Cell *newHead = nullptr, *newEnd = nullptr;
     // Partition the list, newHead and newEnd will be updated
     // by the partition function
-    Cell *pivot = partition(head, end, &newHead, &newEnd);
+    Cell *pivot = partition(head, end, newHead, newEnd);
     // If pivot is the smallest element - no need to recur for
     // the left part.
     if (newHead != pivot)
@@ -108,9 +108,9 @@ Cell* Quicksort::quickSortRecur(Cell *head, Cell *end)
 
 // The main function for quick sort. This is a wrapper over recursive
 // function quickSortRecur()
-void Quicksort::quickSort(Cell **headRef)
+void Quicksort::quickSort(Cell *headRef)
 {
-    (*headRef) = quickSortRecur(*headRef, getEnd(*headRef));
+    (headRef) = quickSortRecur(headRef, getEnd(headRef));
 }
 
 //int main()

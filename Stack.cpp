@@ -62,6 +62,7 @@ Cell * Stack::topElement()
     return(top);
 }
 
+
 void Stack::display()
 {
     top1 = top;
@@ -86,6 +87,7 @@ Stack Stack::clone()
         clonedStack.push(temp->value);
         temp = temp->next;
     }
+    return clonedStack;
 }
 
 Stack::~Stack()

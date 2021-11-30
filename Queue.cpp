@@ -62,6 +62,11 @@ bool Queue::empty()
     return false;
 }
 
+Cell* Queue::getFront()
+{
+    return front;
+}
+
 Queue Queue::clone()
 {
     Cell* temp = front;
@@ -71,6 +76,7 @@ Queue Queue::clone()
         clonedQueue.enqueue(temp->value);
         temp = temp->next;
     }
+    return clonedQueue;
 }
 Queue::~Queue()
 {

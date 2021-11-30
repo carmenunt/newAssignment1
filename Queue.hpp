@@ -14,6 +14,7 @@ public:
     void makenull();
     bool empty();
     Queue clone();
+    Cell* getFront();
     ~Queue();
 };
 

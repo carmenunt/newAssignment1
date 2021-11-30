@@ -5,6 +5,7 @@
 
 
 class BinaryInsersionSort {
+public:
     List  insertion_sort(List list, int length);
     Queue insertion_sort(Queue queue, int length);
 
