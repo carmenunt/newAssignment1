@@ -49,6 +49,8 @@ int main() {
             case 1:
                 BinaryInsersionSort newSort1;
                 newSort1.insertion_sort(newList, counter);
+                newSort1.insertion_sort(newStack, counter);
+                newSort1.insertion_sort(newQueue, counter);
                 Quicksort newSort2;
                 newSort2.quickSort(newList.getHead());
                 newSort2.quickSort(newStack.topElement());

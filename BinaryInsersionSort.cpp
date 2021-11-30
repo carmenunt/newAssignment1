@@ -4,7 +4,7 @@
 #include "Stack.hpp"
 
 
-List insertion_sort(List list, int length) {
+List BinaryInsersionSort::insertion_sort(List list, int length) {
     List newList = list.clone();
     Cell *temp;
     temp = newList.getHead();
@@ -29,9 +29,9 @@ List insertion_sort(List list, int length) {
 
 
 
-}
 
-Queue insertion_sort(Queue queue, int length) {
+
+Queue BinaryInsersionSort::insertion_sort(Queue queue, int length) {
     Queue newQueue = queue.clone();
     Cell *temp;
     temp = queue.enqueue(temp->value);
@@ -56,7 +56,7 @@ Queue insertion_sort(Queue queue, int length) {
 }
 
 
-Stack insertion_sort(Stack stack, int length) {
+Stack BinaryInsersionSort::insertion_sort(Stack stack, int length) {
     Stack newStack = stack.clone();
     Cell *temp;
     temp = newStack.topElement();
