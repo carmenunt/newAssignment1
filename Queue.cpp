@@ -29,7 +29,7 @@ int Queue::dequeue()
     return removed;
 }
 
-void Queue::enqueue(int value)
+Cell * Queue::enqueue(int value)
 {
     Cell* newCell = new Cell;
     newCell->value = value;

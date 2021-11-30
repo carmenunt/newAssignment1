@@ -9,7 +9,7 @@ class Queue {
 public:
     Queue();
     int dequeue();
-    void enqueue(int value);
+    Cell * enqueue(int value);
 
     void makenull();
     bool empty();

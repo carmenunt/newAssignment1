@@ -9,7 +9,7 @@ public:
     Stack();
     int pop();
     void push(int value);
-    int topElement();
+    Cell * topElement();
     void makenull();
     bool empty();
     void display();

@@ -57,9 +57,9 @@ bool Stack::empty()
     return false;
 }
 
-int Stack::topElement()
+Cell * Stack::topElement()
 {
-    return(top->value);
+    return(top);
 }
 
 void Stack::display()
